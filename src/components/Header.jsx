@@ -9,7 +9,7 @@ export const Header = () => {
         className="flex items-center gap-2 border rounded px-4 w-max"
       >
         <Image src="/logo-solo-rpg.png" width={60} height={60} alt="logo" />
-        <h2 className="text-2xl font-normal">RPG SOLO</h2>
+        <h2 className="text-2xl font-normal">SOLO RPG</h2>
       </Link>
     </header>
   );
