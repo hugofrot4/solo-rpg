@@ -4,5 +4,26 @@
 
 body {
   color: #fff;
-  background: #2f2136;
+  background: radial-gradient(circle at center, #6b5067, #2f2136);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #6b5067;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3a2942;
 }

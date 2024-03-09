@@ -3,12 +3,12 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <header className="px-24 py-4 border-b border-white">
+    <header className="px-4 py-4 border-b border-white">
       <Link
         href="/"
-        className="flex items-center gap-2 border rounded px-4 w-max"
+        className="flex items-center gap-2 border rounded px-4 py-1 w-max"
       >
-        <Image src="/logo-solo-rpg.png" width={60} height={60} alt="logo" />
+        <Image src="/logo-solorpg.png" width={40} height={40} alt="logo" />
         <h2 className="text-2xl font-normal">SOLO RPG</h2>
       </Link>
     </header>
